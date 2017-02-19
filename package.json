@@ -31,5 +31,8 @@
     "method-override": "^2.3.7",
     "mysql": "^2.13.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines":{
+    "node":"6.7.0"
+  }
 }
