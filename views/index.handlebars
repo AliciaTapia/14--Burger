@@ -1,9 +1,13 @@
 
+<div class="container">
+   
+
+
 <h1> Eat - Da - Burger </h1>
 
-<h2> New created burgers </h2>
+<h2 class="left"> New created burgers </h2>
 
-
+<ul class="left">
   {{#each burgers}}
     {{#unless this.devoured}}
       <li>
@@ -19,9 +23,9 @@
   {{/each}}
 </ul>
 
-<h2> Devoured burgers </h2>
+<h2 class="right"> Devoured burgers </h2>
 
-<ul>
+<ul class="right">
   {{#each burgers}}
     {{#if this.devoured}}
       <li>
@@ -37,6 +41,7 @@
   {{/each}}
 </ul>
 
+<div style="clear:both;"></div>
 <h2>Add a Burger</h2>
 <form class="create-update-form" action="/" method="POST">
 
