@@ -1,0 +1,23 @@
+
+h1 {
+     color: #aba4ac;
+     margin-bottom: 10px;
+   }
+
+   
+
+body {
+	background-color: yellow;
+	font color: #333333;
+	font-family: "georgia","times new roman","times","serif";
+	margin:0;
+	padding: 0;
+
+}
+
+input.new-item {
+  width: 75%;
+  height: 35px;
+  margin-right: 25px;
+  margin-top: 25px;
+}   
